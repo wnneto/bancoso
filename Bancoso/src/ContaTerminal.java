@@ -34,31 +34,4 @@ public class ContaTerminal {
             scanner.close();
     }
 
-
-
-
-  /**  public static void main(String[] args) throws Exception {
-
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-
-        System.out.println("Escolha sua opção: [1] - Acessar [2] - Criar Conta");
-        int opção = scanner.nextInt();
-
-        if (opção == 1) {
-            System.out.println("Opção 1");
-        } else if (opção == 2) {
-            ContaTerminal app = new ContaTerminal();
-            User user = app.new User();
-            System.out.println(user);
-        } else {
-            System.out.println("Opção inválida");
-        }
-
-        scanner.close();
-        
-    }
-    */
-
-
-
 }
